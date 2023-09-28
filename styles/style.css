@@ -1,0 +1,81 @@
+body {
+    margin: 0 auto; /* Center the content horizontally */
+    max-width: 1200px; /* Set a maximum width for the content */
+    padding: 20px; /* Add padding to provide spacing around the content */
+}
+
+#sticky-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #d58f15;
+    z-index: 1000;
+    text-align: center;
+}
+#basic-p {
+    text-align: center;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+/* Define a class to center images */
+.center-image {
+    display: block; /* Ensures the image behaves like a block element */
+    margin: 0 auto; /* Center horizontally */
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+footer {
+    text-align: center;
+}
+
+ol {
+    text-align: center;
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    
+}
+
+/* Style each image pair to display inline-block */
+.image-pair {
+    display: inline-block;
+    margin: 10px; /* Add spacing between image pairs */
+    text-align: center; /* Center text within the pair */
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+/* Style the images */
+.image-pair img {
+    max-width: 100%; /* Ensure images don't exceed their container's width */
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+/* Style the text next to the images */
+.image-pair p {
+    margin: 5px 0;
+}
